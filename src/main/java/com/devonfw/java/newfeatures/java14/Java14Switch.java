@@ -3,7 +3,7 @@ package com.devonfw.java.newfeatures.java14;
 import java.time.DayOfWeek;
 
 /**
- * Shows new nice switch syntax.
+ * Shows JEP 354: new switch syntax
  */
 public class Java14Switch {
 

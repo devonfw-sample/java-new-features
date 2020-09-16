@@ -1,7 +1,7 @@
 package com.devonfw.java.newfeatures.java14;
 
 /**
- * Shows new Java text blocks (multiline string literals).
+ * Shows JEP 355: text blocks (multiline string literals)
  */
 public class Java14TextBlock {
 
