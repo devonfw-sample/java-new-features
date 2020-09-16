@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Vector;
 
 /**
- * Shows JEP 305: instanceof with pattern matching
+ * Shows <a href="https://openjdk.java.net/jeps/305">JEP 305</a>: instanceof with pattern matching
  */
 public class Java14InstanceOf {
 

@@ -4,7 +4,7 @@ import java.lang.reflect.RecordComponent;
 import java.time.LocalDate;
 
 /**
- * Shows JEP 384: records
+ * Shows <a href="https://openjdk.java.net/jeps/384">JEP 384</a>: records
  */
 public class Java14Record {
 

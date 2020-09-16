@@ -1,8 +1,9 @@
 package com.devonfw.java.newfeatures.java14;
 
 /**
- * Shows new nested classes. They have been internally optimized, no more virtual methods and the only thing we can
- * easily show here is the new reflective access.
+ * Shows <a href="https://openjdk.java.net/jeps/181">JEP 181</a>: Nest-Based Access Control<br>
+ * Nested classes have been internally optimized, no more virtual methods, etc. The only thing we can easily show here
+ * is the new reflective access.
  */
 public class Java11Nests {
 
