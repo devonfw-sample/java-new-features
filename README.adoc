@@ -1,0 +1,8 @@
+= Demonstration of new features in Java
+
+This repository contains https://github.com/devonfw-sample/java-new-features/tree/master/src/main/java/com/devonfw/java/newfeatures[small Java classes] that each demonstrate a new feature introduce in a specific Java version as JEP.
+Unlike other github repositoriees with the same goal it also comes with a corresponding repository https://github.com/devonfw-sample/java-new-features-settings[java-new-features-settings] that allows to setup the entire development environment with recent JDK and IDE based on https://github.com/devonfw/ide#devonfw-ide[devonfw-ide].
+
+== Installation
+
+Follow https://github.com/devonfw/ide/blob/master/documentation/setup.asciidoc#setup[setup instructions] and provide https://github.com/devonfw-sample/java-new-features-settings.git as settings URL when asked during the setup.
