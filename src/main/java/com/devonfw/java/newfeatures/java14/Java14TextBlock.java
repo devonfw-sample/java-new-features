@@ -1,8 +1,7 @@
 package com.devonfw.java.newfeatures.java14;
 
 /**
- * @author hohwille
- *
+ * Shows new Java text blocks (multiline string literals).
  */
 public class Java14TextBlock {
 

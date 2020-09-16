@@ -4,7 +4,7 @@ import java.lang.reflect.RecordComponent;
 import java.time.LocalDate;
 
 /**
- *
+ * Shows java records in action.
  */
 public class Java14Record {
 
