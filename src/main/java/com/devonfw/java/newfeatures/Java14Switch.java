@@ -1,4 +1,4 @@
-package com.devonfw.java.newfeatures.java14;
+package com.devonfw.java.newfeatures;
 
 import java.time.DayOfWeek;
 

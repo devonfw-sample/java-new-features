@@ -1,4 +1,4 @@
-package com.devonfw.java.newfeatures.java14;
+package com.devonfw.java.newfeatures;
 
 /**
  * Shows <a href="https://openjdk.java.net/jeps/181">JEP 181</a>: Nest-Based Access Control<br>
