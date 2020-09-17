@@ -11,7 +11,11 @@ public class Java10LocalVariableTypeInference {
 
     var list = new ArrayList<String>(); // infers ArrayList<String>
     var stream = list.stream(); // infers Stream<String>
+    var flag = true;
+    var number = (byte) 0;
     System.out.println(stream.getClass().getName());
+    System.out.println(flag);
+    System.out.println(number);
   }
 
 }

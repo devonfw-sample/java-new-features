@@ -10,12 +10,10 @@ public class Java09CollectionFactoryMethods {
 
   public static void main(String[] args) {
 
-    for (Class<?> nestMember : Java09CollectionFactoryMethods.class.getNestMembers()) {
-      Set<String> set = Set.of("a", "b", "c");
-      System.out.println(set);
-      Map<String, Integer> map = Map.of("one", 1, "two", 2);
-      System.out.println(map);
-    }
+    Set<String> set = Set.of("a", "b", "c");
+    System.out.println(set);
+    Map<String, Integer> map = Map.of("one", 1, "two", 2);
+    System.out.println(map);
   }
 
 }
