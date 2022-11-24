@@ -7,14 +7,14 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 
 /**
- * Shows <a href="https://openjdk.java.net/jeps/321">JEP 321</a>: HTTP Client<br>
+ * Shows <a href="https://openjdk.org/jeps/321">JEP 321</a>: HTTP Client<br>
  */
 public class Java11HttpClient {
 
   public static void main(String[] args) throws Exception {
 
     HttpClient client = HttpClient.newHttpClient();
-    HttpRequest request = HttpRequest.newBuilder(new URI("https://openjdk.java.net/jeps/321")).GET().build();
+    HttpRequest request = HttpRequest.newBuilder(new URI("https://openjdk.org/jeps/321")).GET().build();
     HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
     System.out.println(response.body());
   }

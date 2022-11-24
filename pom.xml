@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.devonfw</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>5</version>
+    <version>11</version>
   </parent>
   <groupId>com.devonfw.java.dev</groupId>
   <artifactId>java-new-features</artifactId>
@@ -16,17 +16,24 @@
 
   <properties>
     <github.repository>java-new-features</github.repository>
-    <java.version>15</java.version>
+    <java.version>17</java.version>
   </properties>
   <build>
     <plugins>
-      <plugin>
+<plugin>
+    <artifactId>maven-javadoc-plugin</artifactId>
+    <version>3.4.1</version>
+    <configuration>
+        <additionalOptions>--snippet-path ${project.basedir}/src/main/java</additionalOptions>
+    </configuration>
+    </plugin>
+    <!--<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <compilerArgs>--enable-preview</compilerArgs>
+          <compilerArgs>- -enable-preview</compilerArgs>
         </configuration>
-      </plugin>
+    </plugin> -->
     </plugins>
   </build>
 </project>
